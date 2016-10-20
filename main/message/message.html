@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+    
+</head>
+<body>
+
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="../../images/laola-min.png">
+				<div class="mui-media-body">
+					劳拉
+					<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+				</div>
+			</a>
+		</li>
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="../../images/user.png">
+				<div class="mui-media-body">
+					云长
+					<p class='mui-ellipsis'>你什么时候到，我在人民广场等你</p>
+				</div>
+			</a>
+		</li>
+		<li class="mui-table-view-cell mui-media">
+			<a href="javascript:;">
+				<img class="mui-media-object mui-pull-left" src="../../images/logo.png">
+				<div class="mui-media-body">
+					紫龙
+					<p class='mui-ellipsis'>我已经到了，你们还要多久</p>
+				</div>
+			</a>
+		</li>
+
+	</ul>
+	
+	<!--js-->
+	<script src="../../js/mui.min.js"></script>
+	<script type="text/javascript" charset="UTF-8">
+      	mui.init({
+      		preloadPages:[{
+      			url:"im-chat.html",
+      			id:"im-chat"
+      		}]
+      	});
+      	mui.plusReady(function(){
+      		var messageList = document.querySelectorAll(".mui-table-view-cell.mui-media");
+      		for (var i=0; i<messageList.length; i++) {
+      			messageList[i].addEventListener('tap',function(){
+      				plus.webview.show("im-chat","slide-in-right",200);
+      			})
+      		}
+      	});
+    </script>
+</body>
+</html>

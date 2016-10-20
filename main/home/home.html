@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <!--<link href="../../css/mui.min.css" rel="stylesheet"/>-->
+    <link href="../../css/mui.css" rel="stylesheet"/>
+    <!--App自定义的css-->
+    <link rel="stylesheet" href="css/home.css" />
+    <!--默认首页显示-->
+</head>
+<body>
+	<div class="mui-content">
+			<div class="mui-content-padded">
+				<div class="trendsDiv">
+					<div class="trendsDiv-content">
+						<!--头部-->
+						<div class="trendsDiv-head">
+							<div class="trendsDiv-head-left">
+								<p><img src="../../images/user.png" height="40px"/></p>
+							</div>
+							<div class="trendsDiv-head-middle">
+								<p style="color: #222222;">劳拉 <span class="mui-badge mui-badge-purple">机车女神</span></p>
+								<p style="font-size: 12px;"><span class="mui-icon mui-icon-location" style="font-size: 13px;margin-top: 0px"></span>上海</p>
+							</div>
+							<div class="trendsDiv-head-right">
+								<p>五分钟前</p>
+							</div>
+						</div>
+						<!--内容显示-->
+						<div class="trendsDiv-body">
+							<!--<p>周末阳光甚好，骑上我的水鸟追风去。上海有没有同行的朋友，约起来！药药药切克闹！</p>-->
+							<p class="trendsDiv-body-pic"><img src="../../images/laola-min.png" data-preview-src="../../images/laola.jpg" data-preview-group="1" /></p>
+							<p class="trendsDiv-body-pic"><img src="../../images/user.png" data-preview-src="../../images/user.png" data-preview-group="1" /></p>
+							<p class="trendsDiv-body-pic"><img src="../../images/laola-min.png" data-preview-src="../../images/laola.jpg" data-preview-group="1" /></p>
+							<p class="trendsDiv-body-pic"><img src="../../images/laola-min.png" data-preview-src="../../images/laola.jpg" data-preview-group="1" /></p>
+							<!--<div style="clear: both;"></div>-->
+							<p style="clear: both;">周末阳光甚好，骑上我的水鸟追风去。上海有没有同行的朋友，约起来！药药药切克闹！</p>
+						</div>
+						<!--底部-->
+						<div class="trendsDiv-footer">
+							<div class="trendsDiv-footer-left">
+								<p><a onclick="alert('评论完成')">评论 (10)</a></p>
+							</div>
+							<div class="trendsDiv-footer-right">
+								<p><a>赞 (22)</a> </p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="mui-content-padded">
+				<div class="trendsDiv">
+					<div class="trendsDiv-content">
+						<div class="trendsDiv-head">
+							<div class="trendsDiv-head-left">
+								<p><img src="../../images/logo.png"/></p>
+							</div>
+							<div class="trendsDiv-head-middle">
+								<p style="color: #222222;">赵紫龙 <span class="mui-badge mui-badge-purple">新手</span></p>
+								<p style="font-size: 12px;">厦门</p>
+							</div>
+							<div class="trendsDiv-head-right">
+								<p>十分钟前</p>
+							</div>
+						</div>
+						<div class="trendsDiv-body">
+							<p>
+								<!--<video src="js/movie.ogg" autoplay="autoplay">
+								</video>-->
+								<!--<video src="http://player.youku.com/embed/XMTMzNDkzNjQ3Ng==" autoplay="autoplay"></video>-->
+								<iframe height="250px" width="100%" src="http://player.youku.com/embed/XMTMzNDkzNjQ3Ng==" frameborder=0 ></iframe>
+							</p>
+							
+							<p>图片全屏后，双击或双指缩放均可对图片进行放大、缩小操作，左右滑动可查看同组(data-preview-group相同的图片为一组)其它图片，点击会关闭预览</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<!--********** js ****************-->
+	<script src="../../js/mui.min.js"></script>
+    <script type="text/javascript" src="../../js/mui.zoom.js" ></script>
+    <script type="text/javascript" src="../../js/mui.previewimage.js" ></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+      	mui.previewImage();
+    </script>
+</body>
+</html>

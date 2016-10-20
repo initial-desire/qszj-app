@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/mt.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	//用户登录
+      	function userlogin(){
+      		var name = document.getElementById("username").value;
+      		alert("骑士『"+name+"』您好！欢迎回家！");
+      	}
+      	//第三方登录
+      	function thirdLogin(type){
+      		alert(type);
+      	}
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<h1 class="mui-title">骑士之家</h1>
+	</header>
+	<h3 align="center" style="margin-top: 60px;">欢迎骑士回家！</h3>
+	<div id="user_login" style="width: 96%; margin-left: 2%;margin-right: 2%;">
+		<table style="width: 100%;line-height: 50px;">
+			<tr>
+				<td>账 号</td>
+				<td><input type="text" id="username" /></td>
+			</tr>
+			<tr>
+				<td>密 码</td>
+				<td><input type="password" /></td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2"><button onclick="userlogin()" style="width: 100%;">登录</button></td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2"><a href="">忘记密码？</a> </td>
+			</tr>
+			
+		</table>
+		<table style="width: 100%;margin-top: 80px;">
+			<tr>
+				<td align="center" colspan="3">第三方登陆</td>
+			</tr>
+			<tr align="center" >
+				<td><div style=""><img src="./pic/login/qqcontent.png" onclick="thirdLogin('qq')"/></div> </td>
+				<td><div style=""><img src="./pic/login/qqcontent.png" onclick="thirdLogin('wechart')"/></div> </td>
+				<td><div style=""><img src="./pic/login/qqcontent.png" onclick="thirdLogin('sina')"/></div> </td>
+			</tr>
+		</table>
+		
+	</div>
+	
+</body>
+</html>

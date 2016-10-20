@@ -1,0 +1,120 @@
+{
+	"index.html": {
+		"resources": [
+			"css/mt.css",
+			"js/mui.min.js",
+			"pic/login/qqcontent.png",
+			"css/mui.min.css",
+			"fonts/mui.ttf"
+		]
+	},
+	"main/frame.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"main/home.html",
+			"main/home/home.html",
+			"main/contacts/contacts.html"
+		],
+		"refer": [
+			"main/home.html",
+			"main/home/home.html",
+			"main/message/message.html",
+			"main/mine/mine.html",
+			"main/contacts/contacts.html"
+		]
+	},
+	"main/home.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"main/contacts/contacts.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"css/mui.indexedlist.css",
+			"js/mui.indexedlist.js"
+		]
+	},
+	"main/message/message.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"images/user.png",
+			"images/logo.png",
+			"images/laola-min.png"
+		],
+		"refer": [
+			"main/message/im-chat.html"
+		]
+	},
+	"main/mine/mine.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"main/mine/css/mine.css",
+			"css/feedback-page.css",
+			"js/mui.view.js",
+			"libs/easymob-webim-sdk/easemob.im-1.0.5.js",
+			"libs/easymob-webim-sdk/json2.js",
+			"libs/easymob-webim-sdk/jquery-1.11.1.js",
+			"libs/easymob-webim-sdk/strophe-custom-2.0.0.js",
+			"main/mine/js/feedback.js",
+			"main/mine/js/feedback-page.js",
+			"main/mine/about.html",
+			"js/mui.js"
+		],
+		"refer": [
+			"main/mine/about.html",
+			"main/mine/account.html",
+			"main/message/message.html"
+		]
+	},
+	"main/home/home.html": {
+		"resources": [
+			"css/mui.min.css",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"images/shuijiao.jpg",
+			"js/mui.min.js",
+			"js/mui.previewimage.js",
+			"js/mui.zoom.js",
+			"images/laola.jpg",
+			"images/logo.png",
+			"main/home/css/home.css",
+			"main/home/js/movie.mp4",
+			"main/home/js/movie.ogg",
+			"images/user.png",
+			"images/laola-min.png",
+			"fonts/mui.ttf",
+			"css/mui.css"
+		]
+	},
+	"main/mine/about.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/app.css"
+		]
+	},
+	"main/mine/account.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/feedback-page.css"
+		]
+	},
+	"main/message/im-chat.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.min.js"
+		]
+	}
+}
